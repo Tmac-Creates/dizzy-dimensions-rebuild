@@ -1,16 +1,14 @@
-.Base {
-    background-color: brown;
-    font-size: 18px;
-}
+
 .button-home,
 .button-about {
-  appearance: none;
+  
   -webkit-appearance: none;
   border: none;
-  color: white;
+  color:burlywood;
   padding: 8px 12px;
   cursor: pointer;
-}
+  font-size: 14px;
+ }
 
 .button-home {
   background-color: red;
@@ -19,3 +17,13 @@
 .button-about {
   background-color: blue;
 }
+
+/*.Project_New {
+    height: 200px;
+    width: 800px;
+}
+
+.Angular_Setup {
+    height: 200px;
+    width: 800px;
+}*/

@@ -1,7 +1,21 @@
-body {
+.Base {
     background-color: brown;
+    font-size: 18px;
 }
-.Angular_Setup {
-    height: 200px;
-    width: 800px;
+.button-home,
+.button-about {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.button-home {
+  background-color: red;
+}
+
+.button-about {
+  background-color: blue;
 }

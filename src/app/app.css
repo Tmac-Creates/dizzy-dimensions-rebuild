@@ -1,14 +1,16 @@
-.button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+nav {
+  background-color: #4a4949;
+  padding: 10px;
+  width: 100%;
+  display: flex;        /* 👈 REQUIRED */
+  align-items: center;  /* 👈 NOW this works */
+  justify-content: center;
 }
 
-.button {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+nav button {
+  margin-right: 10px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }

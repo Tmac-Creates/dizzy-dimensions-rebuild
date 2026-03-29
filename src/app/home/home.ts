@@ -4,7 +4,7 @@ import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [RouterLink],  // 👈 THIS PART
+    // 👈 THIS PART
   templateUrl: './home.html',
   styleUrl: './home.css'
 })

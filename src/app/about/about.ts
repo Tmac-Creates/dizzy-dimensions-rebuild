@@ -2,8 +2,9 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  imports: [RouterLink],  // 👈 THIS PART
+  selector: 'app-about',
+  standalone: true,
+    // 👈 THIS PART
   templateUrl: './about.html',
   styleUrl: './about.css'
 })

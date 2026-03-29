@@ -4,8 +4,8 @@
   </a>
 
   <div class="nav-links">
-    <a routerLink="/">Home</a>
-    <a routerLink="/about">About</a>
-    <a routerLink="/tutorial">Tutorials</a>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+    <a routerLink="/tutorial" routerLinkActive="active">Tutorials</a>
   </div>
 </nav>

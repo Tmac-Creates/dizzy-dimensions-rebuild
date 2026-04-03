@@ -52,5 +52,9 @@ section + section {
 
 .discord_link {
   display: inline-block; /* 👈 prevents stretching */
+<<<<<<< HEAD
+=======
+  align-items: left;
+>>>>>>> origin/master
 }
 

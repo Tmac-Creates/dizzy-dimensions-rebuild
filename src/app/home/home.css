@@ -18,8 +18,9 @@
   height: 300px;
   width: 300px;
 }
+
 section {
- background-color: rgb(57, 55, 55);
+  background-color: rgb(57, 55, 55);
   color: blueviolet;
   display: flex;
   flex-direction: column;
@@ -28,10 +29,29 @@ section {
 }
 
 .Body {
-  color: #f5f5f5;
+  color: whitesmoke;
   text-align: center;
-  max-width: 700px;   /* 👈 controls line length */
-  margin: 0 auto;     /* 👈 centers it */
+  max-width: 700px;
+  margin: 0 auto;
+}
+section + section {
+  margin-top: 20px;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discord_logo {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.discord_link {
+  display: inline-block; /* 👈 prevents stretching */
+  align-items: left;
+}
 

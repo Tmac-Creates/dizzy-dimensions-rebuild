@@ -54,3 +54,21 @@ section + section {
   display: inline-block; /* 👈 prevents stretching */
 }
 
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .discord_logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .discord_link {
+    display: inline-block;
+  }
+}

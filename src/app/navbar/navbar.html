@@ -6,6 +6,14 @@
   <div class="nav-links">
     <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
     <a routerLink="/about" routerLinkActive="active">About</a>
-    <a routerLink="/tutorial" routerLinkActive="active">Tutorials</a>
+    <div class="dropdown">
+    <a routerLink="/tutorial" class="dropbtn">Tutorials</a>
+
+    <div class="dropdown-content">
+      <a routerLink="/media-queries">Media Queries</a>
+      <a routerLink="/flexbox">Flexbox</a>
+      <a routerLink="/grid">Grid</a>
+  </div>
+</div>
   </div>
 </nav>

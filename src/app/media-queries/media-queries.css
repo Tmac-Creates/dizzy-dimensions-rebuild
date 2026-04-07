@@ -7,12 +7,13 @@ img {
 }
 
 /* All of Body Formatting*/
-.body{
+.media-page{
   background-color: rgb(115, 155, 167);
   display: block;
   font-size: 18px;
   margin-bottom: 20px;
 }
+
 /* ALL Section Formatting*/
   section {
   margin-bottom: 20px;
@@ -20,7 +21,6 @@ img {
 }
 
 /* Header Formatting*/
-
   .header {
     display: flex;
     align-items: center;
@@ -30,33 +30,32 @@ img {
     margin-bottom: 20px;
   }
 
-
   /* Intro Formatting*/
   .intro {
-
+    background-color: aqua;
   }
 
   /* Importance Formatting*/
   .importance {
-
+    background-color:chocolate;
   }
 
   /* Basic-Syntax Formatting*/
   .basic-syntax {
-
+    background-color:beige;
   }
 
   /* Sizes Formatting*/
   .sizes {
-
+    background-color:rgb(90, 221, 116);
   }
 
   /* How It Works Formatting*/
   .how-it-works {
-
+    background-color:rgb(226, 130, 210);
   }
 
   /* When to Use Formatting*/
   .when-to-use {
-
+    background-color:rgb(202, 75, 106);
   }

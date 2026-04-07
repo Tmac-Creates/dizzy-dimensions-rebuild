@@ -5,39 +5,58 @@ img {
   display: block;
   margin: 10px auto;
 }
-/* Header Formatting*/
-.header {
-  display: flex;
-  align-items: center;
-  border: 3px solid black;
-  background-color: rgb(217, 40, 40);
+
+/* All of Body Formatting*/
+.body{
+  background-color: rgb(115, 155, 167);
+  display: block;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+/* ALL Section Formatting*/
+  section {
+  margin-bottom: 20px;
   padding: 10px;
-  margin-bottom: 20px;
-}
-/* Intro Formatting*/
-.intro {
-  display: block;
-  font-size: 18px;
-  margin-bottom: 20px;
 }
 
-/* Importance Formatting*/
-.importance {
-  display: block;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
+/* Header Formatting*/
 
-/* Basic-Syntax Formatting*/
-.basic-syntax {
-  display: block;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
+  .header {
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(217, 40, 40);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
 
-/* Sizes Formatting*/
-.sizes {
-  display: block;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
+
+  /* Intro Formatting*/
+  .intro {
+
+  }
+
+  /* Importance Formatting*/
+  .importance {
+
+  }
+
+  /* Basic-Syntax Formatting*/
+  .basic-syntax {
+
+  }
+
+  /* Sizes Formatting*/
+  .sizes {
+
+  }
+
+  /* How It Works Formatting*/
+  .how-it-works {
+
+  }
+
+  /* When to Use Formatting*/
+  .when-to-use {
+
+  }

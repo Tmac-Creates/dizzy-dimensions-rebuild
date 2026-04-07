@@ -1,85 +1,106 @@
-<section class="header">
-  <h1> Media Queries & Responsiveness Design</h1>
-</section>
-<section class="intro">
-  <h2> What are Media Queries</h2>
+<div class="media-page">
 
-  <p>
-    Media Queries are a feature in CSS that allow a website to change it's layout and styling based on the size of the screen or device.
-  </p>
+  <section class="header">
+    <h1> Media Queries & Responsiveness Design</h1>
+  </section>
 
-  <p>
-    They are used to make websites responsive, meaning the site can adjust and look good on:
-  </p>
-  <ul>
-    <li>Phones 📱</li>
-    <li>Tablets 📲</li>
-    <li>Laptops/Desktops 💻</li>
-  </ul>
-  <p><b>Note:</b> List should not be places inside paragraph tags. Always close the paragraph before starting any lists.
-</section>
+  <section class="intro">
+    <h2> What are Media Queries</h2>
 
-<section class="importance">
-  <h2>
-    Why Media Queries are Important?
-  </h2>
-  <p>Whitout media queries:</p>
-  <ul>
-    <li>Content can become too large or small on different screens.</li>
-    <li>Lauouts can break or overlap.</li>
-    <li>Spacing can fell wrong on larger screens.</li>
-  </ul>
-  <p>
-    Media queries solve this by applying different styles depending on the screen size.
-  </p>
-</section>
-<section class="basic-syntax">
-  <h2>
-    Basic Syntax
-  </h2>
-  <p>A media query looks like this:</p>
-  <a>
-  <img
-  class="media1"
-  src="/images/Media-Queries/media-queries-nav1.png"
-  alt="Media Query Example">
-  </a>
-  <ul>
-    <li><b>@media</b> -> tells CSS to apply rules under certain conditions.</li>
-    <li><b>(max-width: 600px)</b> -> applies when the screen is 600 pixels or smaller.</li>
-  </ul>
-</section>
-<section class="sizes">
-  <h2>
-    Common Screen Sizes
-  </h2>
-  <p>These are typical sizes used in responsive design:</p>
-   <a>
-  <img
-  class="media1"
-  src="/images/Media-Queries/media-queries-es1.png"
-  alt="Media Query Example">
-  </a>
-</section>
-<section>
-  <h2>
-    How CSS Works with Media Queries
-  </h2>
-  <p>
-    CSS applies styles in layers:
-  </p>
-  <ol>
-    <li>Base styles apply to all screen sizes.</li>
-    <li>Media queries override those styles when conditions are met:</li>
-     <a>
-  <img
-  class="media1"
-  src="/images/Media-Queries/conditions-example1.png"
-  alt="Media Query Example">
-  </a>
-  </ol>
+    <p>
+      Media Queries are a feature in CSS that allow a website to change it's layout and styling based on the size of the screen or device.
+    </p>
+
+    <p>
+      They are used to make websites responsive, meaning the site can adjust and look good on:
+    </p>
     <ul>
-      <li>The image uses the base styles by default.</li>
-      <li>On smaller screens, the media query overrides the max-width.</li>
+      <li>Phones 📱</li>
+      <li>Tablets 📲</li>
+      <li>Laptops/Desktops 💻</li>
     </ul>
-</section>
+    <p><b>Note:</b> List should not be places inside paragraph tags. Always close the paragraph before starting any lists.
+  </section>
+
+  <section class="importance">
+    <h2>
+      Why Media Queries are Important?
+    </h2>
+    <p>Whitout media queries:</p>
+    <ul>
+      <li>Content can become too large or small on different screens.</li>
+      <li>Lauouts can break or overlap.</li>
+      <li>Spacing can fell wrong on larger screens.</li>
+    </ul>
+    <p>
+      Media queries solve this by applying different styles depending on the screen size.
+    </p>
+  </section>
+  <section class="basic-syntax">
+    <h2>
+      Basic Syntax
+    </h2>
+    <p>A media query looks like this:</p>
+    <a>
+    <img
+    class="media1"
+    src="/images/Media-Queries/media-queries-nav1.png"
+    alt="Media Query Example">
+    </a>
+    <ul>
+      <li><b>@media</b> -> tells CSS to apply rules under certain conditions.</li>
+      <li><b>(max-width: 600px)</b> -> applies when the screen is 600 pixels or smaller.</li>
+    </ul>
+  </section>
+  <section class="sizes">
+    <h2>
+      Common Screen Sizes
+    </h2>
+    <p>These are typical sizes used in responsive design:</p>
+    <a>
+    <img
+    class="media1"
+    src="/images/Media-Queries/media-queries-es1.png"
+    alt="Media Query Example">
+    </a>
+  </section>
+  <section class="how-it-works">
+    <h2>
+      How CSS Works with Media Queries
+    </h2>
+    <p>
+      CSS applies styles in layers:
+    </p>
+    <ol>
+      <li>Base styles apply to all screen sizes.</li>
+      <li>Media queries override those styles when conditions are met:</li>
+      <a>
+    <img
+    class="media1"
+    src="/images/Media-Queries/conditions-example1.png"
+    alt="Media Query Example">
+    </a>
+    </ol>
+      <ul>
+        <li>The image uses the base styles by default.</li>
+        <li>On smaller screens, the media query overrides the max-width.</li>
+      </ul>
+  </section>
+  <section class="when-to-use">
+    <h2>
+      When to Use Media Queries
+    </h2>
+    <p>
+      Media queries should not be added automatically for every screen size, but only when a layout or design issue appears.
+      <br>
+      Example:
+    </p>
+    <ul>
+      <li>Text to large or small</li>
+      <li>Layout is to cramped. (row elements overlap or break.)</li>
+      <li>Elements overlap or break</li>
+      <li>Spacing looks incorrect</li>
+    </ul>
+  </section>
+ 
+</div>

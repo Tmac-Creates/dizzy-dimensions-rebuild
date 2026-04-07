@@ -45,17 +45,39 @@ img {
     background-color:beige;
   }
 
-  /* Sizes Formatting*/
+  /* Sizes Formatting */
   .sizes {
     background-color:rgb(90, 221, 116);
   }
 
-  /* How It Works Formatting*/
+  /* How It Works Formatting */
   .how-it-works {
     background-color:rgb(226, 130, 210);
   }
 
-  /* When to Use Formatting*/
+  /* When to Use Formatting */
   .when-to-use {
     background-color:rgb(202, 75, 106);
+  }
+  /* Responsive Changes Formatting */
+  .responsive-changes {
+    background-color:rgb(86, 87, 131);
+  }
+
+  /* Flexbox Formatting */
+  .flexbox {
+    background-color:rgb(88, 199, 36);
+  }
+
+  /* Key Concepts Formatting */
+  .key-concepts {
+    background-color:rgb(36, 180, 199);
+  }
+  /* Testing Responsiveness Formatting */
+  .testing {
+    background-color:rgb(237, 223, 180);
+  }
+  /* Summmary Formatting */
+  .summary {
+    background-color:rgb(136, 157, 84);
   }

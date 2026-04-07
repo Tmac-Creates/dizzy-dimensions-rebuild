@@ -38,21 +38,6 @@ section + section {
   margin-top: 20px;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.discord_logo {
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-}
-
-.discord_link {
-  display: inline-block; /* 👈 prevents stretching */
-}
 /*Media Queries*/
 
 /* Small Phones (max-width: 600px) */

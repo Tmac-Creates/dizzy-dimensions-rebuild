@@ -1,0 +1,17 @@
+/* ALL Foot Formatting*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  /* Discord Logo Formatting */
+.discord_logo {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+  /* Discord Link Formatting */
+.discord_link {
+  display: inline-block; /* 👈 prevents stretching */
+}

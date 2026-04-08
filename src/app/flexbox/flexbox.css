@@ -1,8 +1,53 @@
-.flexbox-page {
+ .header {
+  display: flex;
+  justify-content: center;
+  background-color: steelblue;
+  width: 100%;
+}
+
+.flex-box-page {
   background-color: rgb(115, 155, 167);
   display: block;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* highlight trick */
+.highlight {
+  background-color: #444; /* dark gray background */
+  color: white; /* text color */
+  padding: 2px 6px; /* space inside */
+  border-radius: 4px; /* rounded edges */
+  font-family: monospace; /* make it look like code */
+  font-size: 16px;
+}
+
+section {
+  margin: 30px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.importance{
+  background-color:chocolate;
+}
+
+.concepts {
+  background-color: cadetblue;
+}
+
+.direction {
+  background-color: crimson;
+}
+
+.horizontal {
+  background-color: darkcyan;
+}
 

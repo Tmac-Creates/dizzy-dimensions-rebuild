@@ -8,6 +8,6 @@ import { TutorialNav } from '../tutorial-nav/tutorial-nav';
 
   templateUrl: './tutorial.html',
   styleUrl: './tutorial.css',
-  imports: [RouterLink, TutorialNav],
+  imports: [TutorialNav],
 })
 export class Tutorial {}

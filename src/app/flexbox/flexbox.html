@@ -45,7 +45,7 @@
   <li>
     <h3>Flex Container:</h3> The parent element where flexbox is applied
 
-    <h4><b>Examples:</b></h4>
+    <h4>Examples:</h4>
 
     <img src="/images/Flexbox/flexbox-img1.png" alt="flexbox img">
 
@@ -56,23 +56,31 @@
 
   <li>
     <h3>Flex Items</h3>
+
     <p>The child elements inside the flex container become flex items.</p>
+
     <p>
       Once <span class="highlight">display: flex;</span> is applied, all direct children become flex items.
     </p>
   </li>
 </ol>
   </section>
+
   <section class="direction">
     <h2>Direction of Layout</h2>
+
     <p>
       Flexbox can arrange items in different directions:
     </p>
+
     <ul>
       <li><b>row</b> -> left to right.</li>
       <li><b>column</b> -> top to bottom.</li>
     </ul>
-    <h4><b>Examples for Rows:</b></h4>
+
+    <h3>
+      <b>Examples for Rows:</b>
+    </h3>
 
     <h4>CSS:</h4>
 
@@ -82,13 +90,17 @@
 
     <img src="/images/Flexbox/flex-row1.png" alt="flexbox css">
 
-    <h4>Examples for Columns</h4>
+    <h3>Examples for Columns</h3>
+
+    <h4>HTML:</h4>
+
+    <img src="images/Flexbox/flex-column-code1.png" alt="flex-column-code">
 
     <h4>CSS</h4>
 
     <img src="/images/Flexbox/flex-column-css1.png" alt="flexbox img">
 
-    <h4>Results:</h4>
+    <h4>Result:</h4>
 
     <img src="/images/Flexbox/flex-column1.png" alt="flexbox img">
 
@@ -100,23 +112,13 @@
     </h2>
 
     <p>
-      <span class="highlight">justify-content</span> controls how items are spaced horizontally inside a flex container.
+      <span class="highlight">display: flex;</span> -> Turns a container into a flex container. ..
     </p>
-    <h3>
-      <span class="highlight">display: flex;</span>
-    </h3>
 
     <p>
-      Turns a container into a flex container.
+      <span class="highlight">justify-content</span> controls how items are spaced horizontally inside a flex container and controls <b>horizontal</b> alignment.
     </p>
 
-    <h3>
-      <span class="highlight">justify-content</span>
-    </h3>
-
-    <p>
-      Controls <b>horizontal</b> alignment.
-    </p>
 
     <h4>Examples:</h4>
 
@@ -130,30 +132,31 @@
 
         <img src="/images/Flexbox/justify-center-css1.png" alt="justify-center-css">
 
-        <h4>Results:</h4>
+        <h4>Result:</h4>
 
          <img src="/images/Flexbox/justify-center-img1.png" alt="justify-center-img">
 
       </li>
+      <h3>Space-between</h3>
       <li>
-
         <p>
           <span class="highlight">justify-content: space-between;</span> -> items are spread out with space in between each box.
         </p>
-        
+
+        <h4>HTML:</h4>
+
+        <img src="images/Flexbox/justify-between-code1.png" alt="justify=between-code">
+
         <h4>CSS:</h4>
 
         <img src="/images/Flexbox/justify-between-css1.png" alt="justify-between-css">
 
-        <h4>Results:</h4>
+        <h4>Result:</h4>
 
         <img src="/images/Flexbox/justify-between-img1.png" alt="justify-between-img">
-
-
       </li>
 
       <li>
-
         <p>
           <span class="highlight">justify-content: space-around;</span> -> There is equal space around each item.
         </p>
@@ -162,17 +165,291 @@
 
         <img src="/images/Flexbox/justify-around-css1.png" alt="justify-around-css">
 
-        <h4>Results:</h4>
+        <h4>Result:</h4>
 
         <img src="/images/Flexbox/justify-around-img1.png" alt="justify-bettwen-img">
       </li>
     </ul>
   </section>
-</div>
+  <section class="vertical">
+    <h2>
+      Important Flexbox Properties (Vertical)
+    </h2>
+    <h3>Align-Items</h3>
+    <p><span class="highlight">align-items</span> controls the vertical alignment of items inside a flex container.
+    </p>
+    <ul>
+      <li>
+        <span class="highlight">align-items: flex-sart;</span> -> This value places all items at the top of the container and are aligned to the left.
+      </li>
+    </ul>
 
-<div class="flex-box-page">
-  <section class="header">
-    <h1>Flexbox & Layout Design</h1>
+    <h4>HTML:</h4>
+
+    <img src="/images/Flexbox/flex-start-code1.png" alt="flex-start-code">
+
+    <p>This HTML creates the boxes inside a flex container(section).</p>
+
+    <h4>CSS:</h4>
+
+    <img src="/images/Flexbox/flex-start-css1.png" alt="flex-start-css">
+
+    <p>This CSS applies <span class="highlight">align-items: flex-start;</span> positioning the boxes at the top of the container.</p>
+
+    <h4>Result:</h4>
+
+    <img src="/images/Flexbox/flex-start-img1.png" alt="flex-start-img">
+
+    <h3>Center</h3>
+
+    <ul>
+      <li>
+        <span class="highlight">align-items: center;</span> -> This value places all the items in the middle of the container <b>vertically.</b>
+      </li>
+    </ul>
+
+    <h4>Examples:</h4>
+
+    <h4>HTML:</h4>
+
+    <img src="/images/Flexbox/align-center-code1.png" alt="align-center-code">
+
+    <h4>CSS:</h4>
+
+    <img src="/images/Flexbox/align-center-css1.png" alt="align-center-css">
+
+    <p>
+      This CSS applies <span class="highlight">align-items: center;</span>positioning the boxes in the center of the container vertically while staying to the far left of the container.
+    </p>
+
+    <h4>Result:</h4>
+
+    <img src="images/Flexbox/align-center-img1.png" alt="align-center-img">
+
+    <p>As you can see the empty space is even on the top and bottom of the container.</p>
+
+    <h3>Flex-end</h3>
+
+    <ul>
+      <li>
+        <span class="highlight">align-items: flex-end</span> -> This value places all the items at the bottom of the container.
+      </li>
+    </ul>
+
+    <h3>Examples:</h3>
+
+    <h4>HTML:</h4>
+
+    <img src="images/Flexbox/align-end-code1.png" alt="align-end-code">
+
+    <p>Same as above this HTML creates the boxes inside a flex container (section).</p>
+
+    <h4>CSS:</h4>
+
+    <img src="images/Flexbox/align-end-css1.png" alt="align-end-css">
+
+    <h4>Result:</h4>
+
+    <img src="images/Flexbox/align-end-img1.png" alt="align-end-img">
+
+    <h3>Flex-direction</h3>
+
+    <ul>
+      <li>
+        <span class="highlight">flex-direction</span> -> This property controls the direction of items inside a flex container.
+      </li>
+      <li>
+        <span class="highlight">flex-row</span> -> This property sets the boxes to start at the upper left corner and continue left to right.
+
+        <h4>HTML:</h4>
+
+        <img src="images/Flexbox/flex-row-code1.png" alt="flex-row-code">
+
+        <h4>CSS:</h4>
+
+        <img src="images/Flexbox/flex-row-css1.png" alt="flex-row-css">
+
+        <h4>Result:</h4>
+
+        <img src="images/Flexbox/flex-row-img1.png">
+      </li>
+    </ul>
+
+    <h3>Flex-column</h3>
+
+    <ul>
+      <li>
+        <span class="highlight">flex-column</span> -> This property sets the boxes to start at the upper left corner and continue top to bottom.
+
+        <h4>HTML:</h4>
+
+        <img src="images/Flexbox/flex-column-code1.png" alt="flex-colum-code">
+
+        <h4>CSS:</h4>
+
+        <img src="images/Flexbox/flex-column-css1.png" alt="flex-column-css">
+
+        <h4>Result:</h4>
+
+        <img src="images/Flexbox/flex-column-img1.png" alt="flex-column-img">
+      </li>
+    </ul>
+
+    <h3>Flex-wrap</h3>
+
+    <ul>
+      <li>
+        <span class="highlight">flex-wrap: wrap;</span> -> This value allows items to move to the next line when space runs out.
+
+        <h3>Examples:</h3>
+
+        <h4>HTML:</h4>
+
+        <img src="images/Flexbox/flex-wrap-code1.png" alt="flex-wrap-code">
+
+        <h4>CSS:</h4>
+
+        <img src="images/Flexbox/flex-wrap-css1.png" alt="flex-wrap-css">
+
+        <h4>Result:</h4>
+
+        <img src="images/Flexbox/flex-wrap-img1.png" alt="flex-wrap-img">
+      </li>
+    </ul>
+
+    <h3>Flex-nowrap</h3>
+
+    <ul>
+      <li>
+        <span class="highlight">flex-wrap: nowrap;</span> -> This value keeps all items on a single line, even if there is not enough space.
+
+        <h3>Example:</h3>
+
+        <h4>HTML:</h4>
+
+        <img src="images/Flexbox/flex-nowrap-code1.png" alt="flex-nowrap-code">
+
+        <h4>CSS:</h4>
+
+        <img src="images/Flexbox/flex-nowrap-css1.png" alt="flex-nowrap-css">
+
+        <h4>Result:</h4>
+
+        <img src="images/Flexbox/flex-nowrap-img1.png" alt="flex-nowrap-img">
+
+      </li>
+    </ul>
+
+    <h3>Gap</h3>
+
+    <ul>
+      <li>
+        <span class="highlight">Gap</span> -> This property adds space between items inside a flex container.
+
+        <h3>Example:</h3>
+
+        <h4>HTML:</h4>
+
+        <img src="images/Flexbox/gap-example-code1.png" alt="rap-example-code">
+
+        <h4>CSS:</h4>
+
+        <img src="images/Flexbox/gap-example-css1.png" alt="gap-example-css">
+
+        <h4>Result:</h4>
+
+        <img src="images/Flexbox/gap-example-img1.png" alt="gap-example-img">
+      </li>
+    </ul>
+
+    <h3>Quick Comparison:</h3>
+
+    <ul>
+      <li><b>flex-direction</b> -> controls layout direction.</li>
+      <li><b>flex-wrap</b> -> controls line breaking.</li>
+      <li><b>gap</b> -> controls spacing.</li>
+    </ul>
   </section>
 
-</div>>
+  <section class="how-it-works">
+    <h3>How Flexbox Works</h3>
+
+    <p>Flexbox works by applying rules to the parent container, not the child element.</p>
+
+    <p>Once the parent has <span class="highlight">display: flex;</span>, the child elements automatically follow the layout rules.</p>
+
+    <h3>Examples:</h3>
+
+    <ul>
+      <li>Parent control layout.</li>
+      <li>Children follow the structure.</li>
+    </ul>
+  </section>
+
+  <section class="common-uses">
+    <h3>Common Uses of Flexbox</h3>
+
+    <p>Flexbox is useful in many real situations:</p>
+
+    <ul>
+      <li>Centering text or images.</li>
+      <li>Aligning items in a navbar.</li>
+      <li>Creating a footer layout.</li>
+      <li>Organizing content into rows and columns.</li>
+    </ul>
+  </section>
+
+  <section class="responsiveness">
+    <h3>Flexbox and Responsiveness</h3>
+
+    <p>Flexbox works very well with <a routerLink="/media-queries">media queries</a>.</p> 
+
+    <h3>For example:</h3>
+
+    <ul>
+      <li>A layout can be a rows on large screens.</li>
+
+      <li>Then switch to a column on smaller screens.</li>
+
+
+      <p>This helps create responsive designs without rewriting large amounts of code.</p>
+    </ul>
+  </section>
+
+  <section class="common-mistakes">
+    <h3>Common Mistakes</h3>
+      <ul>
+        <p>Some common issues when using flexbox:</p>
+
+        <li>Forgetting to add <span class="highlight">display: flex;</span> to the parent.</li>
+        <li>Using alignment properties on the wrong element.</li>
+        <li>Expecting child elements to move without setting the parent.</li>
+
+      </ul>
+  </section>
+
+  <section class="testing-layouts">
+    <h3>Testing Flexbox Layouts</h3>
+    <ul>
+      <p>To test Flexbox behaviour:</p>
+
+      <li>Resize the browser window.</li>
+      <li>Use developer tools</li>
+      <li>Check how items align and wrap.</li>
+
+    </ul>
+  </section>
+
+  <section class="summary">
+    <h3>Summary</h3>
+
+    <p>Flexbox is a powerful layout tool that makes it easier to build clean, flexiable, and responsive designs.</p>
+
+    <p>It simplifies alignment, spacing, and structure, making it an essential part of modern web development.</p>
+
+    <p>Flexbox works best when combinging multipple properties together, such as direction, alignment, wrapping, and spacing.</p>
+
+  </section>
+</div>
+
+

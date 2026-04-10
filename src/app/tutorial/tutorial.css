@@ -1,3 +1,9 @@
+.tutorial-main-page {
+  background-color: rgb(73, 201, 240);
+  display: block;
+  font-size: 18px;
+  max-width: 100%;
+}
 .tutorial-nav {
   display: flex;
   gap: 15px;

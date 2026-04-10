@@ -1,0 +1,39 @@
+.tutorial-nav {
+  display: flex;
+  gap: 15px;
+  background-color: #222;
+  padding: 10px;
+}
+
+.tutorial-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.tutorial-nav a:hover {
+  background-color: #444;
+}
+
+.button-home,
+.button-about {
+  border: none;
+  color:burlywood;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+ }
+
+.button-home {
+  background-color: red;
+}
+
+.button-about {
+  background-color: blue;
+}
+
+/*.Project_New {
+    height: 200px;
+    width: 800px;
+}*/

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from "@angular/router";
+import { TutorialNav } from '../tutorial-nav/tutorial-nav';
 
 @Component({
   selector: 'app-tutorial',
@@ -7,6 +8,6 @@ import { RouterLink } from "@angular/router";
 
   templateUrl: './tutorial.html',
   styleUrl: './tutorial.css',
-  imports: [RouterLink],
+  imports: [RouterLink, TutorialNav],
 })
 export class Tutorial {}

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   background-color: steelblue;
-  width: 100%;
+  margin: 20px;
 }
 
 .flex-box-page {
@@ -43,6 +43,7 @@ section {
   margin: 30px;
   padding: 15px;
   border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .importance{

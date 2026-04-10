@@ -29,6 +29,16 @@ img {
   font-size: 16px;
 }
 
+/* Highlight Text Blue */
+/*.highlight2 {
+  background-color: rgb(81, 81, 187);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace ;
+  font-size: 16px;
+}*/
+
 section {
   margin: 30px;
   padding: 15px;
@@ -40,7 +50,7 @@ section {
 }
 
 .concepts {
-  background-color: cadetblue;
+  background-color: rgb(85, 202, 104);
 }
 
 .direction {
@@ -59,4 +69,30 @@ section {
   margin-bottom: 20px;
 }
 
+.vertical {
+  background-color: darkgrey;
+}
 
+.how-it-works{
+  background-color: blueviolet;
+}
+
+.common-uses {
+  background-color: crimson;
+}
+
+.responsiveness {
+  background-color: darkorange;
+}
+
+.common-mistakes {
+  background-color: aqua;
+}
+
+.testing-layouts {
+  background-color: rgb(132, 187, 100);
+}
+
+.summary {
+  background-color: darksalmon;
+}

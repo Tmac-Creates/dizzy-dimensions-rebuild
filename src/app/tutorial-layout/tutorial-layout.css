@@ -1,0 +1,10 @@
+.tutorial-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tutoial-content {
+  flex: 1;
+}

@@ -6,6 +6,7 @@
 }
 .tutorial-nav {
   display: flex;
+  flex-direction: column;
   gap: 15px;
   background-color: #222;
   padding: 10px;

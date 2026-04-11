@@ -8,17 +8,9 @@
 
 .flex-box-content {
   background-color: rgb(115, 155, 167);
-
   display: block;
   font-size: 18px;
   margin: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 10px auto;
 }
 
 /* highlight trick */
@@ -40,13 +32,6 @@ img {
   font-family: monospace ;
   font-size: 16px;
 }*/
-
-section {
-  margin: 30px;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
 
 .importance{
   background-color:chocolate;
